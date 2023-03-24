@@ -14,7 +14,7 @@ app.use("/koo", router)
 app.use("/add-user", add_user_router)
 
 app.get('/', (req: Request, res: Response) => {
-    res.send("Kooooooooooooooooooooooo")
+    res.send("Peep Peep")
 })
 
 export const start = async () => {
